@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-pay/gopay"
-	"github.com/go-pay/gopay/pkg/util"
-	"github.com/go-pay/gopay/pkg/xlog"
+	"github.com/chaclee/gopay"
+	"github.com/chaclee/gopay/pkg/util"
+	"github.com/chaclee/gopay/pkg/xlog"
 )
 
 type HttpGet struct {

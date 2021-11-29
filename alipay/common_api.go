@@ -13,12 +13,12 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/go-pay/gopay"
-	xaes "github.com/go-pay/gopay/pkg/aes"
-	"github.com/go-pay/gopay/pkg/util"
-	"github.com/go-pay/gopay/pkg/xhttp"
-	"github.com/go-pay/gopay/pkg/xpem"
-	"github.com/go-pay/gopay/pkg/xrsa"
+	"github.com/chaclee/gopay"
+	xaes "github.com/chaclee/gopay/pkg/aes"
+	"github.com/chaclee/gopay/pkg/util"
+	"github.com/chaclee/gopay/pkg/xhttp"
+	"github.com/chaclee/gopay/pkg/xpem"
+	"github.com/chaclee/gopay/pkg/xrsa"
 )
 
 // 格式化请求URL参数

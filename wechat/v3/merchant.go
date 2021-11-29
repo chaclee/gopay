@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/go-pay/gopay"
+	"github.com/chaclee/gopay"
 )
 
 // 查询特约商户账户实时余额API

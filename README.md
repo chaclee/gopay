@@ -1,42 +1,42 @@
-<div align=center><img width="240" height="240" alt="Logo was Loading Faild!" src="https://raw.githubusercontent.com/go-pay/gopay/main/logo.png"/></div>
+<div align=center><img width="240" height="240" alt="Logo was Loading Faild!" src="https://raw.githubusercontent.com/chaclee/gopay/main/logo.png"/></div>
 
 # GoPay
 
 ### 微信、支付宝、PayPal、QQ 的 Golang 版本SDK
 
 [![Github](https://img.shields.io/github/followers/iGoogle-ink?label=Follow&style=social)](https://github.com/iGoogle-ink)
-[![Github](https://img.shields.io/github/forks/go-pay/gopay?label=Fork&style=social)](https://github.com/go-pay/gopay/fork)
+[![Github](https://img.shields.io/github/forks/chaclee/gopay?label=Fork&style=social)](https://github.com/chaclee/gopay/fork)
 
 [![Golang](https://img.shields.io/badge/golang-1.16-brightgreen.svg)](https://golang.google.cn)
-[![GoDoc](https://img.shields.io/badge/doc-pkg.go.dev-informational.svg)](https://pkg.go.dev/github.com/go-pay/gopay)
-[![Drone CI](https://cloud.drone.io/api/badges/go-pay/gopay/status.svg)](https://cloud.drone.io/go-pay/gopay)
-[![GitHub Release](https://img.shields.io/github/v/release/go-pay/gopay)](https://github.com/go-pay/gopay/releases)
-[![License](https://img.shields.io/github/license/go-pay/gopay)](https://www.apache.org/licenses/LICENSE-2.0)
+[![GoDoc](https://img.shields.io/badge/doc-pkg.go.dev-informational.svg)](https://pkg.go.dev/github.com/chaclee/gopay)
+[![Drone CI](https://cloud.drone.io/api/badges/chaclee/gopay/status.svg)](https://cloud.drone.io/chaclee/gopay)
+[![GitHub Release](https://img.shields.io/github/v/release/chaclee/gopay)](https://github.com/chaclee/gopay/releases)
+[![License](https://img.shields.io/github/license/chaclee/gopay)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ---
 
 - #### 近期计划：
 
-> 将 gopay 库中，非支付相关的一些接口方法独立出去另外的 sdk 库，在 go-pay 组织下新建 `wechat-sdk` 和 `alipay-sdk` 两个项目，分别实现各个平台相关接口方法，优先进行 `wechat-sdk` 开发。
+> 将 gopay 库中，非支付相关的一些接口方法独立出去另外的 sdk 库，在 chaclee 组织下新建 `wechat-sdk` 和 `alipay-sdk` 两个项目，分别实现各个平台相关接口方法，优先进行 `wechat-sdk` 开发。
 
-> 微信小程序或公众号相关接口方法：请计划从 `微信v2` 移步替换成 `github.com/go-pay/wechat-sdk`
+> 微信小程序或公众号相关接口方法：请计划从 `微信v2` 移步替换成 `github.com/chaclee/wechat-sdk`
 
 <br>
 
 # 一、安装
 
 ```bash
-go get -u github.com/go-pay/gopay
+go get -u github.com/chaclee/gopay
 ```
 
 #### 查看 GoPay 版本
 
-  [版本更新记录](https://github.com/go-pay/gopay/blob/main/release_note.txt)
+  [版本更新记录](https://github.com/chaclee/gopay/blob/main/release_note.txt)
 
 ```go
 import (
-    "github.com/go-pay/gopay"
-    "github.com/go-pay/gopay/pkg/xlog"
+    "github.com/chaclee/gopay"
+    "github.com/chaclee/gopay/pkg/xlog"
 )
 
 func main() {
@@ -52,11 +52,11 @@ func main() {
 
 > ### 点击查看不同支付方式的使用文档。方便的话，请留下您认可的小星星，十分感谢！
 
-* #### [Alipay](https://github.com/go-pay/gopay/blob/main/doc/alipay.md)
-* #### [Wechat](https://github.com/go-pay/gopay/blob/main/doc/wechat_v3.md)
-* #### [QQ](https://github.com/go-pay/gopay/blob/main/doc/qq.md)
-* #### [Paypal](https://github.com/go-pay/gopay/blob/main/doc/paypal.md)
-* #### [Apple](https://github.com/go-pay/gopay/blob/main/doc/apple.md)
+* #### [Alipay](https://github.com/chaclee/gopay/blob/main/doc/alipay.md)
+* #### [Wechat](https://github.com/chaclee/gopay/blob/main/doc/wechat_v3.md)
+* #### [QQ](https://github.com/chaclee/gopay/blob/main/doc/qq.md)
+* #### [Paypal](https://github.com/chaclee/gopay/blob/main/doc/paypal.md)
+* #### [Apple](https://github.com/chaclee/gopay/blob/main/doc/apple.md)
 
 ---
 
@@ -75,9 +75,9 @@ func main() {
 * 开发过程中，请尽量使用正式环境，1分钱测试法！
 
 QQ群：
-<img width="280" height="280" src="https://raw.githubusercontent.com/go-pay/gopay/main/qq_gopay.png"/>
+<img width="280" height="280" src="https://raw.githubusercontent.com/chaclee/gopay/main/qq_gopay.png"/>
 加微信拉群：
-<img width="280" height="280" src="https://raw.githubusercontent.com/go-pay/gopay/main/wechat_jerry.png"/>
+<img width="280" height="280" src="https://raw.githubusercontent.com/chaclee/gopay/main/wechat_jerry.png"/>
 
 ---
 
@@ -85,8 +85,8 @@ QQ群：
 
 ## 赞赏多少是您的心意，感谢支持！
 
-微信赞赏码： <img width="240" height="240" src="https://raw.githubusercontent.com/go-pay/gopay/main/zanshang.png"/>
-支付宝赞助码： <img width="240" height="240" src="https://raw.githubusercontent.com/go-pay/gopay/main/zanshang_zfb.png"/>
+微信赞赏码： <img width="240" height="240" src="https://raw.githubusercontent.com/chaclee/gopay/main/zanshang.png"/>
+支付宝赞助码： <img width="240" height="240" src="https://raw.githubusercontent.com/chaclee/gopay/main/zanshang_zfb.png"/>
 
 ## License
 

@@ -7,10 +7,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-pay/gopay"
-	"github.com/go-pay/gopay/pkg/util"
-	"github.com/go-pay/gopay/pkg/xhttp"
-	"github.com/go-pay/gopay/pkg/xlog"
+	"github.com/chaclee/gopay"
+	"github.com/chaclee/gopay/pkg/util"
+	"github.com/chaclee/gopay/pkg/xhttp"
+	"github.com/chaclee/gopay/pkg/xlog"
 )
 
 // 企业付款（企业向微信用户个人付款）

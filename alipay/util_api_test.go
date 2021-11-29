@@ -3,9 +3,9 @@ package alipay
 import (
 	"testing"
 
-	"github.com/go-pay/gopay"
-	"github.com/go-pay/gopay/alipay/cert"
-	"github.com/go-pay/gopay/pkg/xlog"
+	"github.com/chaclee/gopay"
+	"github.com/chaclee/gopay/alipay/cert"
+	"github.com/chaclee/gopay/pkg/xlog"
 )
 
 func TestClient_SystemOauthToken(t *testing.T) {

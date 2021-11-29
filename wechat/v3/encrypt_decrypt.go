@@ -9,10 +9,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/go-pay/gopay"
-	"github.com/go-pay/gopay/pkg/aes"
-	"github.com/go-pay/gopay/pkg/util"
-	"github.com/go-pay/gopay/pkg/xpem"
+	"github.com/chaclee/gopay"
+	"github.com/chaclee/gopay/pkg/aes"
+	"github.com/chaclee/gopay/pkg/util"
+	"github.com/chaclee/gopay/pkg/xpem"
 )
 
 // 敏感信息加密

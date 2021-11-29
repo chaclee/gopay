@@ -1,9 +1,9 @@
 package alipay
 
 import (
-	"github.com/go-pay/gopay"
-	"github.com/go-pay/gopay/alipay"
-	"github.com/go-pay/gopay/pkg/xlog"
+	"github.com/chaclee/gopay"
+	"github.com/chaclee/gopay/alipay"
+	"github.com/chaclee/gopay/pkg/xlog"
 )
 
 func UserInfoAuth() {
